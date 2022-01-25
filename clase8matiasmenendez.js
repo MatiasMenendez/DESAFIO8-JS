@@ -178,3 +178,9 @@ if (tipoDeMaterial === 'hierro'){{
         let precioDolarB = bronce.medida1 * bronce.medida2 * bronce.espesor * bronce.pesoEspecifico * bronce.precioPorKilo / valorDolar;
         input5.value = precioDolarB;}
     }
+
+/*Valores agregados al formulario ya existene del HTML */
+
+document.getElementById("medida1").value = medida1*1000;
+document.getElementById("medida2").value = medida2*1000;
+document.getElementById("espesor").value = espesor;
